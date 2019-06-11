@@ -25,7 +25,7 @@ public:
         b->addListener (this);
         auto fbLogo = ImageCache::getFromMemory (DNVAudioData::FBlogo_png, DNVAudioData::FBlogo_pngSize);
         b->setImages (false, true, true, fbLogo, 1.0f, Colours::transparentWhite, fbLogo, 0.7f, Colours::transparentWhite, fbLogo, 0.7f, Colours::transparentWhite);
-        b->setComponentID ("https://www.fb.com/FoleysFinest/");
+        b->setComponentID ("https://www.facebook.com/vfinemusic");
         b->setTooltip (TRANS ("Like or connect with us on Facebook"));
         addAndMakeVisible (b);
 
